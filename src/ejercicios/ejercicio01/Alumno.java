@@ -1,4 +1,4 @@
-package ejercicio01;
+package ejercicios.ejercicio01;
 
 /**
  * Clase que guarda los datos de un alumno
