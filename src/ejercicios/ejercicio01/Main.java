@@ -103,7 +103,7 @@ public class Main {
 	 * @param nombre Nombre del alumno
 	 * @param notaMedia Nota media del alumno
 	 */
-	public static void addAlumno(Alumno[] alumnos, String nombre, float notaMedia, int pos) {
+	public static void addAlumno(Alumno[] alumnos, String nombre, float notaMedia) {
 		// Creo el objeto alumno con el nombre y la ota media que me han pasado
 		alumnos[posAlum] = new Alumno(nombre, notaMedia);
 	}

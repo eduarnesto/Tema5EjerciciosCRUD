@@ -9,7 +9,7 @@ public class Articulo {
 	/**
 	 * Descripcion del articulo
 	 */
-	private String descripcion;
+	private String descripcion="";
 
 	/**
 	 * Precio al que la tienda compra el articulo
@@ -58,7 +58,7 @@ public class Articulo {
 	 */
 	public Articulo() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	/**
@@ -163,5 +163,19 @@ public class Articulo {
 
 		return articulo;
 	}
+
+	@Override
+	public boolean equals(Object obj) {
+		boolean igual = false;
+		Articulo art = (Articulo) obj;
+		if (this.codigo == art.codigo) {
+			igual = true;
+		}
+		
+		return igual;
+		
+	}
+	
+	
 
 }
