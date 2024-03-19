@@ -42,7 +42,7 @@ public class Gestisimal {
 			i++;
 		}
 
-		return i;
+		return pos;
 	}
 
 	public static boolean eliminaArticulo(int codigo) {
